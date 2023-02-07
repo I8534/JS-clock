@@ -1,4 +1,4 @@
-var Target = document.getElementsByClassName("time");
+var Target = document.querySelector(".time");
 
 function clock() {
     var time = new Date();
@@ -10,6 +10,9 @@ function clock() {
     `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}`;
         
 }
-clock();
 
-setInterval(clock, 1000); // 1초마다 실행
+function init() {
+    setInterval(clock, 1000); // 1초마다 실행
+}
+
+init();

@@ -81,10 +81,12 @@ body {
 .time {
   position: absolute;
   border: 1px solid red;
-  width: 400px;
-  height: 100px;
+  width: 600px;
+  height: 300px;
   top: 25%;
   left: 19%;
+  z-index: 100;
+  font-size: 80px;
 }
 
 
