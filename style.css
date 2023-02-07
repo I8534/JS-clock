@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+@font-face {
+	font-family: Orbitron;
+	src: url(./webfonts/Orbitron-Regular.eot);
+	src: url(./webfonts/Orbitron-Regular.woff) format("woff");
+}
+
+.visually-hidden {
+  display: none;
+}
+
+body {
+	font-family: Orbitron, sans-serif;
+  /* font family에 두 개를 쓴 이유는 전자가 작동이 안 되면 산세리프를 쓰겠다는 의미이다. */
+  background-color: rgb(195, 195, 195);
+}
+
+.global-header {
+  width: 95vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-logo img {
+  margin-top: 30px;
+}
+
+.gnb-nav-list {
+
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+  margin-right: 100px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-frame {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#letter {
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.main-letter {
+  font-size: 50px;
+}
+
+.main-letter2 {
+  color: gray;
+}
+
+#clock {
+  position: relative;
+  margin-top: 100px;
+  width: 950px;
+  height: 700px;
+  background-image: url(./images/phone_afternoon.png);
+}
+
+.time {
+  position: absolute;
+  border: 1px solid red;
+  width: 400px;
+  height: 100px;
+  top: 25%;
+  left: 19%;
+}
+
+
+.lnb-nav-list {
+  margin-bottom: 70px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.lnb-nav-item {
+  width: 380px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+background-color: rgba(212, 252, 79, 0.2);
+}
+
+.lnb-nav-item a {
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
