@@ -80,7 +80,6 @@ body {
 
 .time {
   position: absolute;
-  border: 1px solid red;
   width: 600px;
   height: 300px;
   top: 25%;
@@ -104,11 +103,23 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: 10px;
-background-color: rgba(212, 252, 79, 0.2);
+  background-color: rgba(33, 33, 33, 0.2);
+}
+
+.lnb-nav-item:hover {
+  background-color: rgba(1, 1, 1, 0.8);
+}
+
+.lnb-nav-item:hover a {
+  color: white;
 }
 
 .lnb-nav-item a {
   font-size: 12px;
+}
+
+.button {
+  display: none;
 }
 
 
